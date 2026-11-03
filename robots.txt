@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tk-ramen.github.io/yamaguchi-furusato-ranking/sitemap.xml
