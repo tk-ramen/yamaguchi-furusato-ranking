@@ -35,6 +35,15 @@ h2.sec{font-family:"Shippori Mincho B1",serif;font-size:26px;font-weight:800;col
 h2.sec + .sub{text-align:center;color:#6d675f;font-size:13.5px;margin:6px 0 22px;letter-spacing:.08em}
 .intro{background:#fff;border:1px solid #e9e2d2;border-radius:16px;padding:24px 26px;box-shadow:0 10px 30px rgba(60,50,20,.06)}
 .intro p{font-size:14.5px}
+.videorow{display:flex;gap:22px;align-items:flex-start;margin:18px 0 6px}
+.videomain{flex:1 1 auto;min-width:0}
+.videoshort{flex:0 0 270px}
+.videowrap16{position:relative;width:100%;aspect-ratio:16/9;border-radius:14px;overflow:hidden;box-shadow:0 12px 30px rgba(60,50,20,.18);background:#000}
+.videowrap16 iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.videowrap{position:relative;width:100%;aspect-ratio:9/16;border-radius:14px;overflow:hidden;box-shadow:0 12px 30px rgba(60,50,20,.18);background:#000}
+.videowrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.videocap{text-align:center;font-size:12px;color:#8a7a4d;margin-top:8px}
+@media(max-width:760px){.videorow{flex-direction:column}.videoshort{flex:none;width:270px;margin:0 auto}}
 .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0 20px}
 .chip{border:1.5px solid var(--main);background:#fff;color:var(--main);border-radius:999px;padding:6px 16px;font-size:13.5px;font-weight:700;cursor:pointer}
 .chip.on{background:var(--main);color:#fff}
@@ -108,6 +117,18 @@ footer a{color:#f3d98b}
 <h2 class="sec">このランキングについて</h2>
 <p class="sub">ABOUT</p>
 <div class="intro"><p>本ランキングは、山口県内の自治体への寄付でもらえる返礼品から、下関のふぐや岩国の獺祭といった全国区の名品と、長州どり・萩焼・瓦そばなどの地元名産まで、人気と知名度を基準におすすめ順に20品を厳選しました。 寄付額は調査時点の各寄付ページの表示です。最新の寄付額・受付状況は寄付ページでご確認ください。並び順は人気・知名度・カテゴリのバランスを考慮したおすすめ順です。</p></div>
+</section>
+<section>
+<h2 class="sec">選び方の参考に</h2>
+<p class="sub">HOW TO CHOOSE</p>
+<div class="intro"><p>ひろゆき流のふるさと納税の選び方を解説した動画です。「自分の金では絶対買わないものを選ぶ」のがコツだそうです。返礼品選びの参考に、本編とショートの両方を載せています。</p>
+<div class="videorow">
+<div class="videomain"><div class="videowrap16"><iframe src="https://www.youtube.com/embed/FfvkQaBZvpU" title="ひろゆき流ふるさと納税の選び方 自腹では買わないものを選べ" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<p class="videocap">本編：「ひろゆき流ふるさと納税の選び方 自腹では買わないものを選べ」</p></div>
+<div class="videoshort"><div class="videowrap"><iframe src="https://www.youtube.com/embed/Pn6J6UMdyiY" title="ふるさと納税は自腹で買わないものを選べ" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<p class="videocap">ショート：「ふるさと納税は自腹で買わないものを選べ」</p></div>
+</div>
+<p class="videocap">動画はいずれも切り抜きチャンネル「ひろゆきのてつ学」より</p></div>
 </section>
 
 <section>
